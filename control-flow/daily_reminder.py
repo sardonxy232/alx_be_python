@@ -74,5 +74,5 @@ match priority:
             reminder += "and can be completed when you have free time."
     case _:
         reminder = "Invalid priority level. Please enter high, medium, or low."
-    # Print the customised reminder
-print(reminder)
+# Print the customised reminder
+print(f"Reminder: {reminder}")
