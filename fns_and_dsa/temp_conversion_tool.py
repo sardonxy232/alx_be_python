@@ -79,3 +79,5 @@ def main():
 if __name__ == "__main__":
     main()
 # This script demonstrates the use of global variables for conversion factors and provides a simple temperature conversion tool.
+# It includes error handling for invalid inputs and allows users to convert temperatures between Celsius and Fahrenheit.
+# The global variables FAHRENHEIT_TO_CELSIUS_FACTOR and CELSIUS_TO_FAHRENHEIT_FACTOR are used to perform the conversions.
