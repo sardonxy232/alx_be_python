@@ -39,21 +39,18 @@
 # Directory: fns_and_dsa
 # File: arithmetic_operations.py
  
-## arithmetic operations
-def perform_operation(num1: float, num2: float, operation: str) -> float:
-    """
-    Perform basic arithmetic operations based on the operation parameter.
+#  Checks for files exists and not empty
 
-    Parameters:
-    num1 (float): The first number.
-    num2 (float): The second number.
-    operation (str): The operation to perform ('add', 'subtract', 'multiply', 'divide').
+# Checks for function named perform_operation * num1 * num2 * operation
 
-    Returns:
-    float: The result of the arithmetic operation.
-    str: A message for division by zero.
-    """
-    
+# /tmp/correction/8886909261029145080043312991598077058574_5/100741/1269622/fns_and_dsa/arithmetic_operations.py doesn't contain def\s*perform_operation\(num1,\s*num2,\s*operation\):
+# Checks for the implementation of an operation chosen
+
+# Checks for divide by zero scenario
+
+# Checks for the return of the result of the operation
+
+def perform_operation(num1, num2, operation):
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
@@ -63,7 +60,7 @@ def perform_operation(num1: float, num2: float, operation: str) -> float:
     elif operation == 'divide':
         if num2 == 0:
             return "Error: Division by zero is not allowed."
-        return num1 / num2
+        else:
+            return num1 / num2
     else:
-        return "Error: Invalid operation. Please use 'add', 'subtract', 'multiply', or 'divide'."
-    
+        return "Error: Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'."
