@@ -33,6 +33,9 @@
 # Directory: fns_and_dsa
 # File: temp_conversion_tool.py
 
+# test this script by running it in a Python environment.
+
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
 # temp_conversion_tool.py
 
 # Global Conversion Factors
@@ -74,3 +77,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

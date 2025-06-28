@@ -52,3 +52,4 @@ def main():
 if __name__ == "__main__":
     main()
 # This script demonstrates the use of the datetime module to display the current date and time,
+# as well as calculate a future date based on user input.

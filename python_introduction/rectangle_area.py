@@ -42,3 +42,4 @@ area = length * width
 print(f"The area of the rectangle is: {area}")
 # The code above defines two variables, length and width, with the values 10 and 5, respectively.
 # It then calculates the area of the rectangle using the formula Area = length × width and prints the result in a formatted string.
+
